@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Equipment | JMC Brown Inc</title>
+  <meta name="description" content="Professional Kubota equipment used by JMC Brown Inc for lawn care, landscaping, excavation, and site work.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/95 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="images/logo.png" alt="JMC Brown Inc" class="h-12 w-auto rounded">
+          <span class="font-bold text-lg hidden sm:block tracking-tight">JMC BROWN INC</span>
+        </a>
+        
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link text-sm font-medium text-slate-300 hover:text-white">Home</a>
+          <a href="about.html" class="nav-link text-sm font-medium text-slate-300 hover:text-white">About</a>
+          <a href="equipment.html" class="nav-link active text-sm font-medium text-brand-500">Equipment</a>
+          <a href="contact.html" class="nav-link text-sm font-medium text-slate-300 hover:text-white">Request Service</a>
+          <a href="tel:7047875394" class="bg-brand-500 hover:bg-brand-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition">
+            704-787-5394
+          </a>
+        </div>
+
+        <button id="menuBtn" class="md:hidden p-2 text-slate-300 hover:text-white" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="mobile-menu md:hidden">
+        <div class="py-4 space-y-3 border-t border-slate-800">
+          <a href="index.html" class="block text-slate-300 hover:text-white">Home</a>
+          <a href="about.html" class="block text-slate-300 hover:text-white">About</a>
+          <a href="equipment.html" class="block text-brand-500 font-medium">Equipment</a>
+          <a href="contact.html" class="block text-slate-300 hover:text-white">Request Service</a>
+          <a href="tel:7047875394" class="block bg-brand-500 text-white text-center font-semibold px-4 py-2 rounded-lg">Call 704-787-5394</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="pt-28 pb-12 md:pt-32 md:pb-16 hero-gradient">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">Our Equipment</h1>
+      <p class="text-xl text-slate-300">Professional machines for professional results</p>
+    </div>
+  </header>
+
+  <!-- Equipment Photo -->
+  <section class="py-12">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="rounded-2xl overflow-hidden border border-slate-800 shadow-2xl equip-card">
+        <img src="images/equipment.jpg" alt="Kubota excavator and skid steer with attachments" class="w-full h-auto object-cover">
+      </div>
+      <p class="text-center text-slate-500 text-sm mt-4">Kubota KX057-4 excavator and SVL75-2 skid steer with professional attachments</p>
+    </div>
+  </section>
+
+  <!-- Equipment Details -->
+  <section class="py-12 md:py-16 bg-slate-900">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Excavator -->
+        <div class="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 md:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-orange-500/20 text-orange-400 rounded-lg flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </div>
+            <h2 class="text-xl font-bold">Kubota KX057-4</h2>
+          </div>
+          <p class="text-slate-400 mb-4">Compact excavator ideal for precise digging, trenching, grading, and site preparation in tighter spaces.</p>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Foundation & footing work
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Drainage & utility trenches
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Landscaping excavation
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Site cleanup & material handling
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skid Steer -->
+        <div class="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 md:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-brand-500/20 text-brand-400 rounded-lg flex items-center justify-center">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+            </div>
+            <h2 class="text-xl font-bold">Kubota SVL75-2</h2>
+          </div>
+          <p class="text-slate-400 mb-4">Powerful compact track loader built for versatility — grading, material moving, and attachment work.</p>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Grading & leveling
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Mulch, gravel & material spreading
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Demolition & debris handling
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="w-1.5 h-1.5 bg-brand-500 rounded-full"></span>
+              Attachment-ready for specialized jobs
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Attachments -->
+      <div class="mt-10">
+        <h2 class="text-2xl font-bold mb-6 text-center">Attachments & Capabilities</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 text-center">
+            <div class="text-3xl mb-2">🔨</div>
+            <h3 class="font-semibold mb-1">Trencher</h3>
+            <p class="text-xs text-slate-400">Clean trenches for drainage pipe and utilities</p>
+          </div>
+          <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 text-center">
+            <div class="text-3xl mb-2">🌀</div>
+            <h3 class="font-semibold mb-1">Auger</h3>
+            <p class="text-xs text-slate-400">Precise holes for posts, trees, and foundations</p>
+          </div>
+          <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 text-center">
+            <div class="text-3xl mb-2">🚜</div>
+            <h3 class="font-semibold mb-1">Landscape Roller</h3>
+            <p class="text-xs text-slate-400">Soil compaction and surface finishing</p>
+          </div>
+          <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 text-center">
+            <div class="text-3xl mb-2">📦</div>
+            <h3 class="font-semibold mb-1">Buckets & Grapples</h3>
+            <p class="text-xs text-slate-400">Material handling and debris cleanup</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center">
+        <p class="text-slate-400 mb-6 max-w-2xl mx-auto">
+          Having the right equipment on site means jobs get done efficiently and correctly the first time. From fine grading around your home to larger site work, we’re set up for it.
+        </p>
+        <a href="contact.html" class="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-600 text-white font-semibold px-8 py-3.5 rounded-xl transition">
+          Discuss Your Project
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <img src="images/logo.png" alt="JMC Brown Inc" class="h-10 w-auto rounded">
+            <span class="font-bold">JMC BROWN INC</span>
+          </div>
+          <p class="text-slate-400 text-sm">Professional lawn care, landscaping, and equipment services. Fully insured.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Contact</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li><a href="tel:7047875394" class="hover:text-brand-400">704-787-5394</a></li>
+            <li><a href="mailto:jbrown8601@gmail.com" class="hover:text-brand-400">jbrown8601@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li><a href="index.html" class="hover:text-brand-400">Home</a></li>
+            <li><a href="about.html" class="hover:text-brand-400">About Jeremy</a></li>
+            <li><a href="contact.html" class="hover:text-brand-400">Request Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
+        &copy; 2026 JMC Brown Inc. All rights reserved. Fully Insured.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
